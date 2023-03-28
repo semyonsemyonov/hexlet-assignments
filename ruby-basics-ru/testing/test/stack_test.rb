@@ -11,7 +11,7 @@ class StackTest < Minitest::Test
     stack.push! 'element'
 
     assert { stack.to_a == %w[foo bar some element] }
-    assert { stack.size == 5 }
+    assert { stack.size == 4 }
   end
 
   def test_pop
