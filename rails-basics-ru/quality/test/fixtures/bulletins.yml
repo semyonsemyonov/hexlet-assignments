@@ -1,0 +1,9 @@
+one:
+  title: First Title
+  body: First Body
+  published: true
+
+two:
+  title: Second Title
+  body: Second Body
+  published: false
